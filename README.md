@@ -15,4 +15,3 @@ Documentations : https://github.com/KienTranFPT/BeautifulBeaches_03/tree/main/Do
 Published website : https://kientranfpt.github.io/BeautifulBeaches_03/
 =================================================
 Thank you for visit our website.
-![image](https://user-images.githubusercontent.com/110289340/181909829-9a48bea8-be1a-465d-89a2-3a1c5a5165ac.png)
