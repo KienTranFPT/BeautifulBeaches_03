@@ -11,7 +11,7 @@ Beautiful Beaches
 =================================================
 Documentations : https://github.com/KienTranFPT/BeautifulBeaches_03/tree/main/Documentations
 
-=======================================
+=================================================
 Published website : https://kientranfpt.github.io/BeautifulBeaches_03/
 =================================================
 Thank you for visit our website.
