@@ -142,13 +142,8 @@
 }
 
 /* footer */
-.site-footer,
-.footer-links li a {
-  color: white !important;
-  background-color: var(--blue) !important;
-}
 .site-footer > .container-fluid {
-  width: 95%;
+  width: 100%;
 }
 #PopularBeaches button {
   background-color: var(--blue);
@@ -165,4 +160,48 @@
 #geoCoding,
 #curPos {
   font-style: italic;
+}
+
+footer {
+  font-size: 0.9em;
+  font-weight: 300;
+  background-color: var(--blue);
+  /* padding:45px 0 20px; */
+  color: white;
+  margin: 0 auto;
+  margin-top: 12em;
+}
+footer a {
+  color: white;
+  text-decoration: none !important;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+footer a:hover {
+  color: var(--lightBlue);
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+#footer-right {
+  padding-left: 2em;
+}
+#footer-cate {
+  padding-right: 1em !important;
+}
+#footer-contactUs {
+  margin-top: 1em;
+}
+#footer-contactUs > div {
+  word-wrap: break-word;
+  font-style: italic;
+}
+#footer-links, #footer-cate {
+  padding: 0;
+}
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+footer ul li {
+  margin-right: 1em !important;
 }
