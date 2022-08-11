@@ -369,6 +369,7 @@ app.controller("detailCtrl", function ($scope, $rootScope, $window, $timeout) {
   $scope.review = {
     search: "",
     order: "",
+    mention: "",
     orderBy: true,
   };
   $scope.toggleOrderBy = function () {
@@ -388,17 +389,14 @@ app.controller("detailCtrl", function ($scope, $rootScope, $window, $timeout) {
   $scope.toggleUserReview = function () {
     $scope.userReviewState = !$scope.userReviewState;
   };
+  $scope.toggleMention = function (word) {
+      $scope.review.mention = word;
+  };
   $scope.userRatings = {
     current: 3,
     max: 5,
   };
-  $rootScope.usersWho = [
-    "Alone",
-    "Couples",
-    "Family",
-    "Friends",
-    "Business",
-  ];
+  $rootScope.usersWho = ["Alone", "Couples", "Family", "Friends", "Business"];
   $rootScope.usersLong = [
     { id: 0, value: "<= 1 day" },
     { id: 1, value: "2 to 3 days" },
