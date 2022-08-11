@@ -10,7 +10,7 @@ Beautiful Beaches
 	3. Dang Hoang Quoc     (Student1376111)
 
 ================================================
-Documentations : https://github.com/KienTranFPT/BeautifulBeaches_03/tree/main/Documentations
+Documentations : https://github.com/KienTranFPT/BeautifulBeaches_03/tree/main/Documentation
 ================================================
 Published website : https://kientranfpt.github.io/BeautifulBeaches_03/
 ================================================
