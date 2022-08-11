@@ -392,34 +392,34 @@ app.controller("detailCtrl", function ($scope, $rootScope, $window, $timeout) {
     current: 3,
     max: 5,
   };
-  $rootScope.pricesListWho = [
+  $rootScope.usersWho = [
     "Alone",
     "Couples",
     "Family",
     "Friends",
     "Business",
   ];
-  $rootScope.pricesListLong = [
+  $rootScope.usersLong = [
     { id: 0, value: "<= 1 day" },
     { id: 1, value: "2 to 3 days" },
     { id: 2, value: "<= 1 week" },
     { id: 3, value: "> 1 week" },
   ];
-  $rootScope.pricesListClimate = [
+  $rootScope.usersClimate = [
     { id: 2, value: "Comfortable" },
     { id: 1, value: "A little bit Cold" },
     { id: 0, value: "Too Cold" },
     { id: 3, value: "A little bit Warm" },
     { id: 4, value: "Too Warm" },
   ];
-  $rootScope.pricesListFood = [
+  $rootScope.usersFood = [
     { id: 0, value: "Terrible" },
     { id: 1, value: "Poor" },
     { id: 2, value: "Average" },
     { id: 3, value: "Very good" },
     { id: 4, value: "Excellent" },
   ];
-  $rootScope.pricesListFacility = [
+  $rootScope.usersFacility = [
     { id: 0, value: "Terrible" },
     { id: 1, value: "Poor" },
     { id: 2, value: "Average" },
