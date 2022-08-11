@@ -38,7 +38,7 @@ function initialize() {
   var infoWindowContent = [
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/01_Koh_Kradan_01.jpg">' +
         '<h6><a href="#!01-KohKradan">Koh Kradan Beach</a></h6>' +
         "<h6>Trang Province, Thailand</h6>" +
         '<span><b>Rating: 5.0<span class="fa fa-star checked"></span> 266 Reviews</b></span>' +
@@ -47,7 +47,7 @@ function initialize() {
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/02_Whitehaven_01.jpg">' +
         '<h6><a href="#!02-Whitehaven">Whitehaven Beach</a></h6>' +
         "<h6>Whitsunday Island, Australia</h6>" +
         '<span><b>Rating: 4.5<span class="fa fa-star checked"></span> 322 Reviews</b></span>' +
@@ -56,7 +56,7 @@ function initialize() {
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/03_Anakena_01.jpg">' +
         '<h6><a href="#!03-Anakena">Anakena Beach</a></h6>' +
         "<h6>Easter island, Chile</h6>" +
         '<span><b>Rating: 4.2<span class="fa fa-star checked"></span> 433 Reviews</b></span>' +
@@ -65,7 +65,7 @@ function initialize() {
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/04_Camps_Bay_01.jpg">' +
         '<h6><a href="#!04-CampsBay">Camps Bay</a></h6>' +
         "<h6>Cape Town, South Africa</h6>" +
         '<span><b>Rating: 3.9<span class="fa fa-star checked"></span> 186 Reviews</b></span>' +
@@ -74,7 +74,7 @@ function initialize() {
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/05_Cala_Goloritze_01.jpg">' +
         '<h6><a href="#!05-CalaGoloritze">Cala Goloritze Beach</a></h6>' +
         "<h6>Baunei, Sardinia, Italy</h6>" +
         '<span><b>Rating: 4.9<span class="fa fa-star checked"></span> 244 Reviews</b></span>' +
@@ -83,7 +83,7 @@ function initialize() {
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/06_Miami_South_01.jpg">' +
         '<h6><a href="#!06-MiamiSouth">South Beach</a></h6>' +
         "<h6>Miami, Florida, USA</h6>" +
         '<span><b>Rating: 3.6 <span class="fa fa-star checked"></span> 381 Reviews</b></span>' +
@@ -92,7 +92,7 @@ function initialize() {
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/07_Gjipe_01.jpg">' +
         '<h6><a href="#!07-Gjipe">Gjipe Beach</a></h6>' +
         "<h6>Himare, Albania</h6>" +
         '<span><b>Rating: 4.3<span class="fa fa-star checked"></span> 274 Reviews</b></span>' +
@@ -101,16 +101,16 @@ function initialize() {
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/08_San_Josef_Bay_01.jpg">' +
         '<h6><a href="#!08-SanJosefBay">San Josef Bay</a></h6>' +
-        "<h6>Vancouver Island, British Columbia, Canada</h6>" +
+        "<h6>British Columbia, Canada</h6>" +
         '<span><b>Rating: 4.6<span class="fa fa-star checked"></span> 189 Reviews</b></span>' +
         '<p></br><a href="https://www.google.com/maps/dir//San+Josef+Bay,+Columbia+thu%E1%BB%99c+Anh+V0N+1Z0,+Canada/@50.6825225,-128.26685,15z/data=!4m17!1m7!3m6!1s0x54641674c03ffcb1:0xf1e93baf9b304448!2sSan+Josef+Bay,+Columbia+thu%E1%BB%99c+Anh+V0N+1Z0,+Canada!3b1!8m2!3d50.682523!4d-128.26685!4m8!1m0!1m5!1m1!1s0x54641674c03ffcb1:0xf1e93baf9b304448!2m2!1d-128.26685!2d50.682523!3e4">Get directions</a></p>' +
         "</div>",
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/09_White_Beach_01.jpg">' +
         '<h6><a href="#!09-WhiteBeach">White Beach</a></h6>' +
         "<h6>Boracay Island, Philippines</h6>" +
         '<span><b>Rating: 4.2 <span class="fa fa-star checked"></span> 276 Reviews</b></span>' +
@@ -119,7 +119,7 @@ function initialize() {
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/10_Copacabana_01">' +
         '<h6><a href="#!10-Copacabana">Copacabana Beach</a></h6>' +
         "<h6>Rio de Janeiro, Brazil</h6>" +
         '<span><b>Rating: 4.8 <span class="fa fa-star checked"></span> 122 Reviews</b></span>' +
@@ -128,7 +128,7 @@ function initialize() {
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/11_Waikiki_01.jpg">' +
         '<h6><a href="#!11-Waikiki">Waikiki Beach</a></h6>' +
         "<h6>Honolulu, Hawaii, USA</h6>" +
         '<span><b>Rating: 4.8 <span class="fa fa-star checked"></span> 267 Reviews</b></span>' +
@@ -137,7 +137,7 @@ function initialize() {
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/12_Belle_Mare_Beach_01.jpg">' +
         '<h6><a href="#!12-BelleMareBeach">Belle Mare Beach</a></h6>' +
         "<h6>Belle Mare, Mauritius</h6>" +
         '<span><b>Rating: 4.5<span class="fa fa-star checked"></span> 236 Reviews</b></span>' +
@@ -146,7 +146,7 @@ function initialize() {
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/13_Oludeniz_Beach_01.jpg">' +
         '<h6><a href="#!13-OludenizBeach">Oludeniz Beach Beach</a></h6>' +
         "<h6>Mugla, Turkey</h6>" +
         '<span><b>Rating: 4.9<span class="fa fa-star checked"></span> 186 Reviews</b></span>' +
@@ -155,7 +155,7 @@ function initialize() {
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/14_Surfers_Paradise_Beach_01.jpg">' +
         '<h6><a href="#!14-SurfersParadiseBeach">Surfers Paradise Beach</a></h6>' +
         "<h6>Queensland, Australia</h6>" +
         '<span><b>Rating: 4.9<span class="fa fa-star checked"></span> 296 Reviews</b></span>' +
@@ -164,7 +164,7 @@ function initialize() {
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/15_Nha_Trang_Beach_01.jpg">' +
         '<h6><a href="#!15-NhaTrangBeach">Nha Trang Beach</a></h6>' +
         "<h6>Khanh Hoa, Viet Nam</h6>" +
         '<span><b>Rating: 4.4<span class="fa fa-star checked"></span> 276 Reviews</b></span>' +
@@ -173,7 +173,7 @@ function initialize() {
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/16_Pink_Beach_01.jpg">' +
         '<h6><a href="#!16-PinkBeach">Pink Beach</a></h6>' +
         "<h6>Nusa Tenggara Timur, Indonesia</h6>" +
         '<span><b>Rating: 4.6<span class="fa fa-star checked"></span> 376 Reviews</b></span>' +
@@ -182,73 +182,73 @@ function initialize() {
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/17_Navagio_Beach_01.jpg">' +
         '<h6><a href="#!17-NavagioBeach">Navagio Beach</a></h6>' +
         "<h6>Zakynthos, Greece</h6>" +
-        '<span><b>Rating: 4.8<span class="fa fa-star checked"></span> 136 Reviews</b></span>' +
+        '<span><b>Rating: 4.5<span class="fa fa-star checked"></span> 350 Reviews</b></span>' +
         '<p></br><a href="https://www.google.com/maps/dir//Navagio,+Hy+L%E1%BA%A1p/@37.8595769,20.6248109,17z/data=!4m17!1m7!3m6!1s0x13676b8cc2540ae1:0x783ee88b75588aee!2sNavagio!3b1!8m2!3d37.8594645!4d20.6249001!4m8!1m0!1m5!1m1!1s0x13676b8cc2540ae1:0x783ee88b75588aee!2m2!1d20.6249001!2d37.8594645!3e4">Get directions</a></p>' +
         "</div>",
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/18_Ipanema_Beach_01.jpg">' +
         '<h6><a href="#!18-IpanemaBeach">Ipanema Beach</a></h6>' +
         "<h6>Rio de Janeiro, Brazil</h6>" +
-        '<span><b>Rating: 4.6 <span class="fa fa-star checked"></span> 112 Reviews</b></span>' +
+        '<span><b>Rating: 4.5<span class="fa fa-star checked"></span> 350 Reviews</b></span>' +
         '<p></br><a href="https://www.google.com/maps/dir/10.825103,106.6409201/Ipanema+Beach/@-0.3897707,-54.6207213,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x9bd50124462bc9:0x297084a82551b8e4!2m2!1d-43.2047975!2d-22.987064">Get directions</a></p>' +
         "</div>",
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/19_Bottom_Bay_01.jpg">' +
         '<h6><a href="#!19-BottomBay">Bottom Bay</a></h6>' +
         "<h6>Christ Church, Barbados</h6>" +
-        '<span><b>Rating: 4.9<span class="fa fa-star checked"></span> 207 Reviews</b></span>' +
+        '<span><b>Rating: 4.5<span class="fa fa-star checked"></span> 350 Reviews</b></span>' +
         '<p></br><a href="https://www.google.com/maps/dir//Bottom+Bay,+Barbados/@13.1362354,-59.4249439,17z/data=!4m17!1m7!3m6!1s0x8c438c560e661f1d:0x838a9e431eb33605!2sBottom+Bay!3b1!8m2!3d13.1362038!4d-59.4250546!4m8!1m0!1m5!1m1!1s0x8c438c560e661f1d:0x838a9e431eb33605!2m2!1d-59.4250546!2d13.1362038!3e4">Get directions</a></p>' +
         "</div>",
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/20_Hyams_Beach_01.jpg">' +
         '<h6><a href="#!20-HyamsBeach">Hyams Beach</a></h6>' +
         "<h6>New South Wales, Australia</h6>" +
-        '<span><b>Rating: 4.9<span class="fa fa-star checked"></span> 206 Reviews</b></span>' +
+        '<span><b>Rating: 4.5<span class="fa fa-star checked"></span> 350 Reviews</b></span>' +
         '<p></br><a href="https://www.google.com/maps/dir//Hyams+Beach+New+South+Wales+2540,+%C3%9Ac/@-35.1078501,150.6868869,14z/data=!4m17!1m7!3m6!1s0x6b148eb5e92334cd:0x40609b49043d6b0!2sHyams+Beach+New+South+Wales+2540,+%C3%9Ac!3b1!8m2!3d-35.1017041!4d150.6922288!4m8!1m0!1m5!1m1!1s0x6b148eb5e92334cd:0x40609b49043d6b0!2m2!1d150.6922288!2d-35.1017041!3e4">Get directions</a></p>' +
         "</div>",
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/21_Grace_Bay_01.jpg">' +
         '<h6><a href="#!21-GraceBayBeach">Grace Bay Beach</a></h6>' +
         "<h6>Turks and Caicos island, England</h6>" +
-        '<span><b>Rating: 4.9<span class="fa fa-star checked"></span> 266 Reviews</b></span>' +
+        '<span><b>Rating: 4.5<span class="fa fa-star checked"></span> 350 Reviews</b></span>' +
         '<p></br><a href="https://www.google.com/maps/dir/10.825103,106.6409201/Grace+Bay+Beach/@1.0334376,-69.233504,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x894b4f97e3e25cbb:0xcf05e228e2c20c30!2m2!1d-72.1760505!2d21.7980019">Get directions</a></p>' +
         "</div>",
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/22_Nihiwatu_Beach_01.jpg">' +
         '<h6><a href="#!22-NihiwatuBeach">Nihiwatu Beach</a></h6>' +
         "<h6>East Nusa Tenggara, Indonesia</h6>" +
-        '<span><b>Rating: 4.7<span class="fa fa-star checked"></span> 126 Reviews</b></span>' +
+        '<span><b>Rating: 4.5<span class="fa fa-star checked"></span> 350 Reviews</b></span>' +
         '<p></br><a href="https://www.google.com/maps/dir//Nihiwatu+Beach,+%C4%90%C3%B4ng+Nusa+Tenggara,+Indonesia/@-9.7727717,119.3659356,16z/data=!4m17!1m7!3m6!1s0x2c4afcdc01f97a73:0x54c747e3fc22ac63!2sNihiwatu+Beach!3b1!8m2!3d-9.7720795!4d119.3682249!4m8!1m0!1m5!1m1!1s0x2c4afcdc01f97a73:0x54c747e3fc22ac63!2m2!1d119.3682249!2d-9.7720795!3e4">Get directions</a></p>' +
         "</div>",
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
-        '<h6><a href="#!23->AnseSoleilBeach">Anse Soleil Beach</a></h6>' +
+        '<img width="180" height="100" src="images/23_Anse_Soleil_01.jpg">' +
+        '<h6><a href="#!23-AnseSoleil">Anse Soleil Beach</a></h6>' +
         "<h6>Mahe Island, Seychelles</h6>" +
-        '<span><b>Rating: 4.6<span class="fa fa-star checked"></span> 126 Reviews</b></span>' +
+        '<span><b>Rating: 4.5<span class="fa fa-star checked"></span> 350 Reviews</b></span>' +
         '<p></br><a href="https://www.google.com/maps/dir/10.825103,106.6409201/Anse+Soleil+Beach/@2.3355204,41.2305388,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x22e1d515ad9990a1:0x62834e982974cba0!2m2!1d55.4655793!2d-4.7455939">Get directions</a></p>' +
         "</div>",
     ],
     [
       '<div class="info_content">' +
-        '<img width="180" height="100" src="images/whereToGo/header_image.jpg">' +
+        '<img width="180" height="100" src="images/24_Diani_Beach_01.jpg">' +
         '<h6><a href="#!24-DianiBeach">Diani Beach</a></h6>' +
         "<h6>Easter island, Chile</h6>" +
-        '<span><b>Rating: 4.9<span class="fa fa-star checked"></span> 202 Reviews</b></span>' +
+        '<span><b>Rating: 4.5<span class="fa fa-star checked"></span> 350 Reviews</b></span>' +
         '<p></br><a href="https://www.google.com/maps/dir/10.825103,106.6409201/Diani+Beach/@2.5148018,33.2998175,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x1840463f2a0b107d:0xafa0063ab0f439ad!2m2!1d39.5946958!2d-4.2797626">Get directions</a></p>' +
         "</div>",
     ],
@@ -319,11 +319,18 @@ app.controller("whereCtrl", function ($scope, $http) {
   };
   $scope.filterByRegion();
 
-   //This will hide the DIV by default.
+   //Hide or show map
    $scope.IsVisible = false;
-   $scope.ShowHide = function () {
-       //If DIV is visible it will be hidden and vice versa.
-       $scope.IsVisible = $scope.IsVisible ? false : true;
+   $scope.btnmap="Show map";
+   $scope.ShowHide = function () {       
+       if($scope.IsVisible){
+        $scope.IsVisible = false;
+        $scope.btnmap="Show map"
+       }
+       else{
+        $scope.IsVisible = true;
+        $scope.btnmap="Hide map";
+       }       
    }
 
    //Display price description 
