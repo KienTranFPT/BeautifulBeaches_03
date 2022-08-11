@@ -124,3 +124,10 @@
     height: 200px;
   }
 }
+
+@media (max-width: 576px) {
+  #footer-links {
+    margin-top: 1em;
+  }
+}
+
