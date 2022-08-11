@@ -465,8 +465,17 @@ label[for^="customRadio"] {
   border-color: var(--darkBlue) !important;
 }
 
-.review-mention button:hover {
- background-color: #17a2b8;
+.review-mention {
+  margin-top: 2em;
+}
+.review-mention button:hover:not(:last-child) {
+ background-color: #17a2b8 !important;
+}
+.review-mention button:hover:last-child {
+ background-color: #28a745 !important;
+}
+.review-mention button:last-child {
+ margin-left: 2em;
 }
 
 .review-content-box select > option {
