@@ -123,12 +123,12 @@ section > h2 {
   margin: 15px 0px;
   border: 1px solid rgb(232, 232, 232);
   border-radius: 8px;
-  background-color: #f7f7f7;
+  background-color: #f8f9fa;
   border-collapse: separate;
   border-spacing: 5px;
 }
 .user-review {
-  background-color: rgb(238, 247, 255);
+  background-color: rgb(248, 251, 253);
   border: 1px solid var(--lightBlue);
   transition: all 0.4s ease;
 }
@@ -463,4 +463,16 @@ label[for^="customRadio"] {
 .support-button button:hover {
   background-color: var(--darkBlue) !important;
   border-color: var(--darkBlue) !important;
+}
+
+.review-mention button:hover {
+ background-color: #17a2b8;
+}
+
+.review-content-box select > option {
+  background-color: white;
+  color: #6c757d;
+}
+.review-content-box button:hover {
+  background-color: #6c757d;
 }
