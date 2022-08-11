@@ -121,7 +121,7 @@
               <div id="beachMap">
                 <locate
                   locating="detailBeach.beachLocation"
-                  width="450"
+                  width="300"
                   height="300"
                 ></locate>
               </div>
@@ -505,28 +505,55 @@
                   </div>
                 </div>
 
-                <div class="review">
+                <div class="review-mention">
                   <h6>Popular mentions</h6>
-                  <button type="button" class="btn btn-outline-info">
+                  <button
+                    type="button"
+                    class="btn btn-outline-info"
+                    ng-click="toggleMention('sand')"
+                  >
                     Sand
                   </button>
-                  <button type="button" class="btn btn-outline-info">
+                  <button
+                    type="button"
+                    class="btn btn-outline-info"
+                    ng-click="toggleMention('surf')"
+                  >
                     Surf
                   </button>
-                  <button type="button" class="btn btn-outline-info">
+                  <button
+                    type="button"
+                    class="btn btn-outline-info"
+                    ng-click="toggleMention('resort')"
+                  >
                     Resort
                   </button>
-                  <button type="button" class="btn btn-outline-info">
+                  <button
+                    type="button"
+                    class="btn btn-outline-info"
+                    ng-click="toggleMention('restaurant')"
+                  >
                     Restaurant
                   </button>
-                  <button type="button" class="btn btn-outline-info">
+                  <button
+                    type="button"
+                    class="btn btn-outline-info"
+                    ng-click="toggleMention('food')"
+                  >
                     Food
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-outline-info"
+                    ng-click="toggleMention()"
+                  >
+                    Show All
                   </button>
                 </div>
               </div>
               <table
                 class="detail-review"
-                ng-repeat="itmReview in reviewsList | filter:review.search | orderBy:review.order:review.orderBy"
+                ng-repeat="itmReview in reviewsList | filter:review.search | filter:review.mention | orderBy:review.order:review.orderBy"
                 ng-if="itmReview.rvBeachId==detailPath"
               >
                 <tr>
