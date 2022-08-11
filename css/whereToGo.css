@@ -44,15 +44,20 @@ a:hover{
 }
 .btn-primary-map {    
   border-color: var(--blue) !important;
-  color: rgb(0, 123, 255);
+  color: var(--blue) !important;
   border-radius: 8px;
   background-color: white;
+  height: fit-content;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
 }
 .btn-primary-map:hover {
   border-color: var(--blue) !important;
-  color: white;
-  border-radius: 10px;
+  color: white !important;
+  border-radius: 8px;
   background-color: var(--blue);
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
 }
 /* rating star */
 .checked {
