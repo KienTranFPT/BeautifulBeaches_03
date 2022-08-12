@@ -195,7 +195,8 @@ footer a:hover {
   word-wrap: break-word;
   font-style: italic;
 }
-#footer-links, #footer-cate {
+#footer-links,
+#footer-cate {
   padding: 0;
 }
 footer ul {
@@ -204,4 +205,12 @@ footer ul {
 }
 footer ul li {
   margin-right: 1em !important;
+}
+
+.search {
+  /* background-color: var(--darkBlue); */
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline;
 }
