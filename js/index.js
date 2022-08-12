@@ -6,11 +6,19 @@ document.getElementById("date-time").innerHTML = dt;
 var x = document.getElementById("geoCoding");
 var y = document.getElementById("curPos");
 function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else {
-    y.innerHTML = "Geolocation is not supported by this browser.";
-  }
+  navigator.geolocation.watchPosition(
+    function (position) {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+      } else {
+        y.innerHTML = "Geolocation is not supported by this browser.";
+      }
+    },
+    function (error) {
+      if (error.code == error.PERMISSION_DENIED)
+        y.innerHTML = "Tracking location has been blocked.";
+    }
+  );
 }
 function showPosition(position) {
   var lat = position.coords.latitude;
@@ -26,7 +34,7 @@ function showPosition(position) {
         x.innerHTML = "No address found";
       }
     });
-  y.innerHTML = "(Latitude: " + lat + "; Longitude: " + long + ")";
+  y.innerHTML = " (Latitude: " + lat + "; Longitude: " + long + ")";
 }
 getLocation();
 
