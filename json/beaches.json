@@ -260,8 +260,7 @@
         { "src": "./images/08_San_Josef_Bay_07.jpg", "desc": "Image 07" },
         { "src": "./images/08_San_Josef_Bay_08.jpg", "desc": "Image 08" },
         { "src": "./images/08_San_Josef_Bay_09.jpg", "desc": "Image 09" },
-        { "src": "./images/08_San_Josef_Bay_10.jpg", "desc": "Image 10" },
-        { "src": "./images/08_San_Josef_Bay_11.jpg", "desc": "Image 11" }
+        { "src": "./images/08_San_Josef_Bay_10.jpg", "desc": "Image 10" }
       ],
       "beachWhen": "Jun"
     },
