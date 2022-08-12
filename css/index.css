@@ -167,12 +167,12 @@ footer {
   font-weight: 300;
   background-color: var(--blue);
   /* padding:45px 0 20px; */
-  color: white;
+  color: var(--extraLightBlue);
   margin: 0 auto;
   margin-top: 12em;
 }
 footer a {
-  color: white;
+  color: var(--extraLightBlue);
   text-decoration: none !important;
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
@@ -213,4 +213,11 @@ footer ul li {
   margin: 5px;
   border-radius: 5px;
   display: inline;
+}
+
+.footer-bottom {
+  color: var(--lighterBlue);
+}
+.copyright-text{
+  text-align: right;
 }
