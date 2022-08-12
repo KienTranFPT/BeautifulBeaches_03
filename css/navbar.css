@@ -5,6 +5,8 @@
   --lightBlue80: rgb(105, 171, 225, 0.9);
   --darkBlue: rgb(27, 60, 88);
   --darkBlue80: rgb(27, 60, 88, 0.9);
+  --lighterBlue: rgb(141, 185, 222);
+  --extraLightBlue: rgb(231, 238, 243);
 }
 html {
   scroll-behavior: smooth;
@@ -93,7 +95,7 @@ html {
   color: white;
   border-color: rgba(255, 255, 255, 0);
   border-radius: 0;
-  border-bottom: 0.25px solid rgb(164, 200, 230);
+  border-bottom: 0.25px solid var(--lighterBlue);
   background-color: rgba(255, 255, 255, 0);
 }
 #navbar .search-background > input:active,
@@ -103,7 +105,7 @@ html {
   border-bottom: 1px solid white !important;
 }
 #navbar .search-background > input::placeholder {
-  color: rgb(164, 200, 230);
+  color: var(--lighterBlue);
   font-style: italic;
   font-size: 0.9em;
 }
