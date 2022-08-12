@@ -124,6 +124,21 @@
               <a class="nav-link" href="#!siteMap">Sitemap</a>
             </li>
           </ul>
+          <form class="form-inline my-lg-0 search-background">
+            <input
+              ng-model="selected"
+              class="form-control mr-sm-1"
+              placeholder="Enter beach name"
+              auto
+            />
+            <ul ng-show="selected" class="my-2 my-sm-0 search">
+              <li
+                ng-repeat="beach in beachesList | filter:selected | limitTo :1"
+              >
+                <a href="{{beach.beachUrl}}"><i class="fas fa-search" ng-click="toggleSearch()"></i></a>
+              </li>
+            </ul>
+          </form>
         </div>
       </nav>
     </header>
