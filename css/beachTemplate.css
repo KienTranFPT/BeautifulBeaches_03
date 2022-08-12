@@ -1,5 +1,5 @@
 #beachTemplate {
-  margin-top: 0.5em;
+  margin-top: 3.2em;
   margin-bottom: 2em;
 }
 #beachTemplate-header-box {
@@ -10,13 +10,15 @@
   color: white;
   background-color: #464646;
   text-transform: uppercase;
-  min-height: 20em;
+  min-height: 40vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 #beachTemplate-header-box > div:first-child {
-  padding-top: 0.6em;
-  margin-top: 0.6em;
-  vertical-align: middle;
-  text-align: center;
+  margin-top: -0.2em;
   font-size: 5em;
   font-weight: 800;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
@@ -24,8 +26,6 @@
 #beachTemplate-header-box > div:last-child {
   font-size: 2em;
   font-weight: 500;
-  vertical-align: middle;
-  text-align: center;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.38);
 }
 #beachTemplate-body {
@@ -104,8 +104,8 @@ section > h2 {
 #downloads,
 #rateReview,
 #FAQ {
-  padding-top: 6rem;
-  margin-top: -3rem;
+  padding-top: 7.5rem;
+  margin-top: -3.5rem;
 }
 .beach-downloads-box {
   margin-top: -0.4em;
@@ -295,7 +295,7 @@ label[for^="customRadio"] {
 #gallery {
   margin: 0 auto;
   width: 100%;
-  min-width: 350px;
+  min-width: 250px;
   margin-bottom: calc(11.5vw + 35.5em);
 }
 .slider-container {
@@ -468,16 +468,18 @@ label[for^="customRadio"] {
 .review-mention {
   margin-top: 2em;
 }
+.review-mention button {
+  margin-bottom: 0.5em;
+}
 .review-mention button:hover:not(:last-child) {
- background-color: #17a2b8 !important;
+  background-color: #17a2b8 !important;
 }
 .review-mention button:hover:last-child {
- background-color: #28a745 !important;
+  background-color: #28a745 !important;
 }
-.review-mention button:last-child {
- margin-left: 2em;
+.review-mention button:nth-last-child(2) {
+  margin-right: 2em;
 }
-
 .review-content-box select > option {
   background-color: white;
   color: #6c757d;
