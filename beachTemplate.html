@@ -121,7 +121,7 @@
               <div id="beachMap">
                 <locate
                   locating="detailBeach.beachLocation"
-                  width="300"
+                  width="400"
                   height="300"
                 ></locate>
               </div>
@@ -553,7 +553,7 @@
               </div>
               <table
                 class="detail-review"
-                ng-repeat="itmReview in reviewsList | filter:review.search | filter:review.mention | orderBy:review.order:review.orderBy"
+                ng-repeat="itmReview in reviewsList | filter:review.search | filter:{rvOther:review.mention} | orderBy:review.order:review.orderBy"
                 ng-if="itmReview.rvBeachId==detailPath"
               >
                 <tr>
