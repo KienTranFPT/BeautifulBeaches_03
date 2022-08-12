@@ -1,10 +1,10 @@
 :root {
   --blue: rgb(65, 133, 188) !important;
-  --blue80: rgb(65, 133, 188, 0.8);
+  --blue80: rgb(65, 133, 188, 0.9);
   --lightBlue: rgb(105, 171, 225);
-  --lightBlue80: rgb(105, 171, 225, 0.8);
+  --lightBlue80: rgb(105, 171, 225, 0.9);
   --darkBlue: rgb(27, 60, 88);
-  --darkBlue80: rgb(27, 60, 88, 0.8);
+  --darkBlue80: rgb(27, 60, 88, 0.9);
 }
 html {
   scroll-behavior: smooth;
@@ -88,6 +88,36 @@ html {
 #navbar .nav-item > a:active {
   color: var(--darkBlue) !important;
 }
+
+#navbar .search-background > input {
+  color: white;
+  border-color: rgba(255, 255, 255, 0);
+  border-radius: 0;
+  border-bottom: 0.25px solid rgb(164, 200, 230);
+  background-color: rgba(255, 255, 255, 0);
+}
+#navbar .search-background > input:active,
+#navbar .search-background > input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid white !important;
+}
+#navbar .search-background > input::placeholder {
+  color: rgb(164, 200, 230);
+  font-style: italic;
+  font-size: 0.9em;
+}
+#navbar .search-background ul li a:hover {
+  color: var(--lightBlue);
+}
+#navbar.shrink .search-background > input {
+  height: 1.8em;
+  font-size: 0.9em;
+}
+.ui-autocomplete {
+  z-index: 9999 !important;
+}
+
 #navbar.shrink {
   height: 40px;
   background-color: var(--blue80) !important;
@@ -134,7 +164,7 @@ html {
 
 #myScrollspy {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.04);
-  z-index: 9997;
+  z-index: 9996;
 }
 #myScrollspy-box {
   transition: all 0.4s ease;
@@ -147,8 +177,7 @@ html {
 }
 #myScrollspy-box nav#myScrollspy {
   width: 100%;
-
-  background-color: rgba(245, 245, 245, 0.77) !important;
+  background-color: rgba(245, 245, 245, 0.85) !important;
   backdrop-filter: blur(17px) !important;
 }
 #myScrollspy-box nav#myScrollspy ul {
