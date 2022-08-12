@@ -188,4 +188,10 @@ label[for^="fbSite"] {
   #feedback-content2 {
     width: 95%;
   }
+  #contactUs-body {
+    width: 95%;
+  }
+  .stateContentActive {
+    padding: 1.6em 1.2em;
+  }
 }
