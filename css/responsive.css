@@ -142,6 +142,9 @@
   #footer-links {
     margin-top: 1em;
   }
+  .copyright-text{
+    text-align: left;
+  }
   .nav-gallery li img {
     width: calc(90px / 1.2);
     height: calc(60px / 1.2);
