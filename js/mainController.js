@@ -310,6 +310,12 @@ app.controller("myCtrl", function ($scope, $rootScope, $window, $timeout) {
     rating: "",
     price: "",
   };
+  $scope.selected = "";
+  $scope.toggleSearch = function () {
+    $scope.selected = "";
+    console.log($scope.selected);
+  }
+  
   $scope.rateFilter = function (itm) {
     if ($scope.filters.rating == "") {
       return itm.beachRating;
@@ -390,7 +396,7 @@ app.controller("detailCtrl", function ($scope, $rootScope, $window, $timeout) {
     $scope.userReviewState = !$scope.userReviewState;
   };
   $scope.toggleMention = function (word) {
-      $scope.review.mention = word;
+    $scope.review.mention = word;
   };
   $scope.userRatings = {
     current: 3,
@@ -550,8 +556,8 @@ app.controller("contactCtrl", function ($scope, $rootScope, $window, $timeout) {
     closedCmt: "",
     existCmt: "",
   };
-  $scope.beachNames = [];
 
+  $scope.beachNames = [];
   angular.forEach($rootScope.beachesList, function (itm) {
     $scope.beachNames.push(itm.beachName);
   });
@@ -623,7 +629,6 @@ app.controller("contactCtrl", function ($scope, $rootScope, $window, $timeout) {
       ? !$scope.userFbState1
       : $scope.userFbState1;
   };
-
   $scope.fbRate = [
     { id: 0, value: "Terrible" },
     { id: 1, value: "Poor" },
@@ -891,7 +896,7 @@ app.directive("autoSuggest", function ($timeout) {
         select: function () {
           $timeout(function () {
             ele.trigger("input");
-          }, 0);
+          }, 1);
         },
       });
     },
@@ -901,5 +906,48 @@ app.filter("floorFilter", function () {
   return function (value) {
     if (!value) return null;
     return Math.floor(value);
+  };
+});
+
+app.directive("auto", function ($timeout) {
+  var name = [
+    "Koh Kradan",
+    "Whitehaven",
+    "Anakena",
+    "Camps Bay",
+    "Cala Goloritzè",
+    "Miami South Beach",
+    "Gjipe Beach",
+    "San Josef Bay",
+    "White Beach",
+    "Copacabana",
+    "Waikiki",
+    "Belle Mare Beach",
+    "Oludeniz Beach",
+    "Surfers Paradise Beach",
+    "Nha Trang Beach",
+    "Pink Beach",
+    "Navagio Beach",
+    "Ipanema Beach",
+    "Bottom Bay",
+    "Hyams Beach",
+    "Grace Bay Beach",
+    "Nihiwatu Beach",
+    "Anse Soleil",
+    "Diani Beach",
+  ];
+  return {
+    restrict: "A",
+    require: "ngModel",
+    link: function (scope, iElement, iAttrs) {
+      iElement.autocomplete({
+        source: name,
+        select: function () {
+          $timeout(function () {
+            iElement.trigger("input");
+          }, 0);
+        },
+      });
+    },
   };
 });
