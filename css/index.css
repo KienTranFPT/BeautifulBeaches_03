@@ -208,10 +208,8 @@ footer ul li {
 }
 
 .search {
-  /* background-color: var(--darkBlue); */
-  padding: 5px 10px;
-  margin: 5px;
-  border-radius: 5px;
+  padding: 5px;
+  margin: 0;
   display: inline;
 }
 
