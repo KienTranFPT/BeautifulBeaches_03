@@ -97,6 +97,8 @@ html {
   border-radius: 0;
   border-bottom: 0.25px solid var(--lighterBlue);
   background-color: rgba(255, 255, 255, 0);
+  width: 12em;
+  font-size: 0.9em;
 }
 #navbar .search-background > input:active,
 #navbar .search-background > input:focus {
